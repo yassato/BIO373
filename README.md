@@ -6,10 +6,10 @@ This "Lec_and_TAs" branch provides all source codes for lecturers and TAs.
 ## Licence  
 
 ## Directory  
-- ./QTL  
+### ./QTL  
 
-- ./SNPcallTest  
+### ./SNPcallTest  
 
-- ./GWAS  
+### ./GWAS  
 
 
