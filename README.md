@@ -1,2 +1,8 @@
 # BIO373ys
-UZH BIO373 materials made by Y. Sato
+## Overview  
+Materials for QTL and GWAS practice in the BIO373 course.  
+
+## Licence  
+
+## Directory  
+
