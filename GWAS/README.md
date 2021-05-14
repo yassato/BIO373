@@ -1,9 +1,9 @@
 # Teaching materials for the GWAS practice  
 
 The set of source codes to prepare input files and slides for BIO373 GWAS practice.  
-To prepare course materials, 
-1. Impute genotypes using BEAGLE (./preprocessing/)  
-2. Covert the imputed vcf into a numeric format of GAPIT input (.data/)  
+To prepare course materials and run GWAS/GS of rice agronomic traits, 
+1. Impute genotypes using BEAGLE (./preprocessing/PLINK2VCF2BEAGLE)  
+2. Covert the imputed vcf into a numeric format of GAPIT input (.data/GAPIT_GenoPrep.R)  
 3. Run GAPIT using "GAPIT_practice.R"    
 
 
