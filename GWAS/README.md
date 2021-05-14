@@ -1,6 +1,6 @@
 # Teaching materials for the GWAS practice  
 
-## Short description  
+## Description  
 The set of source codes to prepare input files and slides for BIO373 GWAS practice.  
 To prepare course materials and run GWAS/GS of rice agronomic traits, 
 1. Impute genotypes using BEAGLE (./preprocessing/PLINK2VCF2BEAGLE)  
