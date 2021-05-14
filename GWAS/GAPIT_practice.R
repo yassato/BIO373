@@ -1,0 +1,50 @@
+##############################
+#GWAS/GS exercise using GAPIT#
+##############################
+
+# download GAPIT source code
+source("https://zzlab.net/GAPIT/gapit_functions.txt")
+
+# download phenotype data
+p <- read.table("http://www.ricediversity.org/data/sets/44kgwas/RiceDiversity_44K_Phenotypes_34traits_PLINK.txt", sep="\t", header=TRUE)
+
+# read genotype data
+g <- read.table("./data/RiceDiversity_44K_Genotypes_PLINK_imputed.txt.gz",header=TRUE,sep="\t")
+gm <- read.table("./data/RiceDiversity_44K_Genotypes_PLINK_info.txt",header=TRUE,sep="\t")
+
+# GWAS with a naive linear model
+myGAPIT_GLM <- GAPIT(
+  Y=p[,c("HybID","Seed.length")],
+  GD=g,
+  GM=gm,
+  model="GLM")
+
+# GWAS with a linear mixed model
+myGAPIT_MLM <- GAPIT(
+  Y=p[,c("HybID","Seed.length")],
+  GD=g,
+  GM=gm,
+  model="MLM")
+
+
+# prediction of flowering time
+myGAPIT_BLUP <- GAPIT(
+  Y=p[,c("HybID","Year06Flowering.time.at.Arkansas")],
+  GD=g,
+  GM=gm,
+  model="gBLUP")
+
+pred <- read.csv("GAPIT.MLM.Pred.result.csv")
+pred <- pred[order(pred$Taxa),]
+y <- p[order(p$HybID),]
+
+plot(pred$Prediction,y$Year07Flowering.time.at.Arkansas,ylab="flowering time on 2007",xlab="predicted flowering time")
+plot(pred$Prediction[is.na(y$Year06Flowering.time.at.Arkansas)],
+     y$Year07Flowering.time.at.Arkansas[is.na(y$Year06Flowering.time.at.Arkansas)],
+     ylab="flowering time on 2007",xlab="predicted flowering time")
+
+cor.test(pred$Prediction,y$Year07Flowering.time.at.Arkansas)
+cor.test(pred$Prediction[is.na(y$Year06Flowering.time.at.Arkansas)],
+         y$Year07Flowering.time.at.Arkansas[is.na(y$Year06Flowering.time.at.Arkansas)])
+
+
