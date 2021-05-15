@@ -1,4 +1,4 @@
-# BIO373 teaching materials
+# BIO373 materials for students
 
 ### GWAS
 R script and input data for GWAS/GS practice
