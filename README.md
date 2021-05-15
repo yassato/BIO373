@@ -9,5 +9,5 @@ This "Lec_and_TAs" branch provides all source codes for lecturers and TAs.
 ### SNPcallTest  
 
 ### GWAS  
-All materials for the GWAS/GS practice to prepare presentation slides, input data, and run GAPIT.   
+All materials for the GWAS/GS practice to prepare slides, input data, and run GAPIT.   
 
