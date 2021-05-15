@@ -1,0 +1,12 @@
+Model,Value
+Trait,c("377", "2")
+group.by ,20
+Trait name ,MLM.Seed.length
+Kinship,413:414
+Z Matrix,c(378, 378)
+Covariate,c(377, 2)
+SNP.P3D,TRUE
+Clustering algorithms,average
+Group kinship,Mean
+group.from ,413
+group.to ,413
