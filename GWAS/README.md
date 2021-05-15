@@ -13,7 +13,7 @@ To prepare input genotypes and run GWAS/GS,
 To make slides,  
 1. clone this repository in your local environment
 2. make a RStudio project
-3. knit GWAS_practice_Yasu.Rmd as a beamer presentation
+3. knit R Markdown (GWAS_practice_Yasu.Rmd) as a beamer presentation
 
 
 ## References 
