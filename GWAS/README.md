@@ -2,10 +2,17 @@
 
 ## Description  
 The set of source codes to prepare input files and slides for the GWAS practice at BIO373.  
-To prepare input genotypes and run GWAS/GS of rice agronomic traits, 
-1. Impute genotypes using BEAGLE (./preprocessing/PLINK2VCF2BEAGLE)  
-2. Covert the imputed vcf into a numeric format of GAPIT input (.data/GAPIT_GenoPrep.R)  
-3. Run GAPIT using "GAPIT_practice.R"    
+Here we see how GWAS/GS works with rice agronomic traits.  
+
+To prepare input genotypes and run GWAS/GS, 
+1. impute genotypes using BEAGLE (PLINK2VCF2BEAGLE.sh)  
+2. covert the imputed vcf into a numeric format of GAPIT input (GAPIT_GenoPrep.R)  
+3. run GAPIT using "GAPIT_practice.R"  
+
+To make slides,  
+1. clone this repository in your local environment
+2. make a RStudio project
+3. knit GWAS_practice_Yasu.Rmd as a beamer presentation
 
 
 ## References 
