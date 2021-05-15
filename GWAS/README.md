@@ -1,7 +1,7 @@
-# Teaching materials for the GWAS practice  
+# Teaching materials for the GWAS/GS practice  
 
 ## Description  
-The set of source codes to prepare input files and slides for the GWAS practice at BIO373.  
+The set of source codes to prepare input files and slides used for BIO373.  
 We aim to see how GWAS/GS works with rice agronomic traits.  
   
 To prepare input genotypes and run GWAS/GS, 
