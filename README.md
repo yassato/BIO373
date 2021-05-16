@@ -1,8 +1,8 @@
 # BIO373 materials for students
 
 ## Directory  
-### GWAS
-R script and input data for the GWAS/GS practice
-
 ### QTL
-R script and input data for the QTL practice
+R script and input data for the QTL practice using r/qtl  
+
+### GAPIT
+R script and input data for the GWAS/GS practice using GAPIT  
