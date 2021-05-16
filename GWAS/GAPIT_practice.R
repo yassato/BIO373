@@ -2,6 +2,9 @@
 #GWAS/GS practice using GAPIT#
 ##############################
 
+# clean up your workplace
+rm(list=ls())
+
 # download GAPIT source code
 # if errors happen, try twice to load
 source("https://zzlab.net/GAPIT/gapit_functions.txt")
@@ -70,3 +73,23 @@ plot(pred$Prediction[NA06],
      main=paste("r =",round(sqrt(summary(res)$r.squared),2)))
 abline(res)
 
+
+#Exercise
+
+# Q1
+myGAPIT_MLM <- GAPIT( # warnings occur but it still works
+  Y=p[,c("HybID","Flowering.time.at.Aberdeen")],
+  GD=g,
+  GM=gm,
+  SNP.MAF=0.05, # cut-off minor alleles at 0.05
+  Inter.Plot=TRUE,  # option to make interactive plots
+  model="MLM",
+  )
+
+# Q2
+pred<- myGAPIT_MLM$Pred
+pred <- pred[order(pred$Taxa),]
+y <- p[order(p$HybID),]
+
+plot(pred$Prediction,y$Flowering.time.at.Arkansas)
+cor.test(pred$Prediction,y$Flowering.time.at.Arkansas)
