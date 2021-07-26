@@ -1,4 +1,4 @@
-# BIO373 materials for students
+# Quantitative Genetics in BIO373
 
 ## Directory  
 ### QTL
