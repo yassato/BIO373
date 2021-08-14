@@ -2,7 +2,7 @@
 
 ## Directory  
 ### QTL
-R script and input data for the QTL practice using r/qtl  
+R script and input data for the QTL exercise using r/qtl  
 
 ### GAPIT
-R script and input data for the GWAS/GS practice using GAPIT  
+R script and input data for the GWAS/GS exercise using GAPIT  
