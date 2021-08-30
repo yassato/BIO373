@@ -61,8 +61,7 @@ file <- paste0("https://raw.githubusercontent.com/rqtl/",
 magic <- read_cross2(file)
 head(magic$pheno) # see phenotypes
 
-n_ind(magic) # no. of individuals
-n_mar(magic) # no. of markers
+summary(magic)
 magic$gmap$"4"[1:50] # markers at the top of chr. 4
 
 # visualize recombination
