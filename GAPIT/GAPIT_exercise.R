@@ -8,7 +8,7 @@ rm(list=ls())
 
 # download GAPIT source code
 # if errors happen, try twice to load
-source("https://zzlab.net/GAPIT/gapit_functions.txt")
+source("gapit_functions.txt")
 
 # download phenotype data
 pheno_url <- "http://www.ricediversity.org/data/sets/44kgwas/RiceDiversity_44K_Phenotypes_34traits_PLINK.txt"
