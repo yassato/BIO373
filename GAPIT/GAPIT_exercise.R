@@ -6,8 +6,7 @@
 # clean up your workplace
 rm(list=ls())
 
-# download GAPIT source code
-# if errors happen, try twice to load
+# load GAPIT source code and its dependency
 source("gapit_functions.txt")
 
 # download phenotype data
