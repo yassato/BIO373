@@ -7,7 +7,8 @@
 rm(list=ls())
 
 # qtl exercise with RILs
-# load r/qtl package
+# install & load r/qtl package
+install.packages("qtl",repos="http://cran.us.r-project.org")
 library(qtl)
 
 # load genotypes and phenotypes as a "cross" object
@@ -52,7 +53,8 @@ par(mfcol=c(1,2)); par(mai=c(1,1,0.25,0.25))
 plot(scanSPDTF); plot(scanSPDTF, chr=4)
 
 # qtl2 exercise with MAGIC line
-# load qtl2 package
+# install & load qtl2 package
+install.packages("qtl2",repos="http://cran.us.r-project.org")
 library(qtl2)
 
 # download dataset from the r/qtl2 website
