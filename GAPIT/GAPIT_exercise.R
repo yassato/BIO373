@@ -7,6 +7,8 @@
 rm(list=ls())
 
 # load GAPIT source code and its dependency
+# wait ca. 5 min. to install everything
+# some packages are not installed but they are negligible
 source("gapit_functions.txt")
 
 # download phenotype data
