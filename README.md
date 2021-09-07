@@ -1,5 +1,5 @@
-# Quantitative Genetics in 21HS BIO373
-Exercise materials are available at https://github.com/yassato/BIO373  
+# Quantitative Genetics Exercise in 21HS BIO373
+Materials are available at https://github.com/yassato/BIO373  
 
 ## Directory  
 ### QTL
