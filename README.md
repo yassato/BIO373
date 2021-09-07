@@ -1,5 +1,5 @@
 # Quantitative Genetics in 21HS BIO373
-
+https://github.com/yassato/BIO373
 
 ## Directory  
 ### QTL
