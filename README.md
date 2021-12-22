@@ -1,4 +1,4 @@
-# Exercise materials for BIO373
+# Exercise materials in BIO373
 All materials are available at https://github.com/yassato/BIO373  
 
 ## Directory  
