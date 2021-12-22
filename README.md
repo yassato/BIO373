@@ -3,10 +3,10 @@ All materials are available at https://github.com/yassato/BIO373
 
 ## Directory  
 ### QTL
-Materials for the QTL exercise on day X  
+Materials for the QTL exercise on the day X  
 
 ### GAPIT
-Materials for the GWAS/GS exercise on day Y  
+Materials for the GWAS/GS exercise on the day Y  
 
 ### SNP
-Materials for the file handling and SNP calling exercise on day Z  
+Materials for the file handling and SNP calling exercise on the day Z  
