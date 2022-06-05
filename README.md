@@ -8,5 +8,3 @@ Materials for the QTL exercise on the day X
 ### GAPIT
 Materials for the GWAS/GS exercise on the day Y  
 
-### SNP
-Materials for the file handling and SNP calling exercise on the day Z  
